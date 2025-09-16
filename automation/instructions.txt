@@ -1,0 +1,18 @@
+1 Structure the pageObject of Login
+    1.1 Create a file called LoginPO.java inside page folder. ok
+    1.2 Make heritage of class BasePO.java. ok
+    1.3 Map all elements of login screen.ok
+        1.3.1 Create the elements with pageFactory.ok
+
+2 Structure the file of login tests
+    2.1 Create a file called LoginTest.java inside folder test.OK
+    2.2 Make heritage of class BaseTest.java.OK
+    2.3 Create a initial method that knows instantiate a PO of login.OK
+    2.4 Create the test cases based on spreadsheet.  
+        2.4.1 TC01_Should_not_have_log_into_system_with_empty_email_and_password
+        2.4.2 TC02_Should_not_have_log_into_system_with_empty_password
+        2.4.3 TC03_Should_not_have_log_into_system_with_empty_email
+        2.4.4 TC04_Should_not_have_log_into_system_with_wrong_credentials
+        2.4.5 TC05_Should_not_have_log_into_system_with_wrong_password
+        2.4.6 TC06_Should_not_have_log_into_system_with_wrong_email
+        2.4.7 TC07_Should_log_into_system_with_success
